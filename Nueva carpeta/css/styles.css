@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333;
+}
+.header {
+    background-color: #7FFFD4;
+    color: #333;
+    padding: 20px 0;
+}
+.header h1 {
+    margin: 0;
+}
+.header p {
+    font-size: 18px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.nav-button {
+    background-color: white;
+    color: #000;
+    border: 2px solid #7FFFD4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav-button:hover {
+    background-color: #7FFFD4;
+    color: white;
+}
+.gallery, .services, .testimonials, .contact {
+    padding: 30px;
+}
+.gallery img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px; /* Aumenta el margen para mayor separación */
+    transition: transform 0.3s;
+    display: inline-block;
+}
+
+.gallery img:hover { /* Se activa cuando el cursor pasa por encima */
+    transform: scale(1.1);
+}
+.services, .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.service-item, .testimonial {
+    width: 45%;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.social-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.social-button i {
+    margin-right: 5px;
+}
+footer {
+    background-color: hsl(170, 91%, 45%);
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
